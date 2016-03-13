@@ -6,16 +6,6 @@ public class InputManager : MonoBehaviour {
 
     private string inputID;
 
-	// Use this for initialization
-	void Start () {
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
     public void SetID(int newID)
     {
         inputID = Convert.ToString(newID);
