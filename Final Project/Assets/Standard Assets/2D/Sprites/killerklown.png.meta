@@ -1,0 +1,2293 @@
+fileFormatVersion: 2
+guid: eb5cc6007163af74382a21bb8e9f3ce5
+timeCreated: 1458867794
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: killerklown_0
+    21300002: killerklown_1
+    21300004: killerklown_2
+    21300006: killerklown_3
+    21300008: killerklown_4
+    21300010: killerklown_5
+    21300012: killerklown_6
+    21300014: killerklown_7
+    21300016: killerklown_8
+    21300018: killerklown_9
+    21300020: killerklown_10
+    21300022: killerklown_11
+    21300024: killerklown_12
+    21300026: killerklown_13
+    21300028: killerklown_14
+    21300030: killerklown_15
+    21300032: killerklown_16
+    21300034: killerklown_17
+    21300036: killerklown_18
+    21300038: killerklown_19
+    21300040: killerklown_20
+    21300042: killerklown_21
+    21300044: killerklown_22
+    21300046: killerklown_23
+    21300048: killerklown_24
+    21300050: killerklown_25
+    21300052: killerklown_26
+    21300054: killerklown_27
+    21300056: killerklown_28
+    21300058: killerklown_29
+    21300060: killerklown_30
+    21300062: killerklown_31
+    21300064: killerklown_32
+    21300066: killerklown_33
+    21300068: killerklown_34
+    21300070: killerklown_35
+    21300072: killerklown_36
+    21300074: killerklown_37
+    21300076: killerklown_38
+    21300078: killerklown_39
+    21300080: killerklown_40
+    21300082: killerklown_41
+    21300084: killerklown_42
+    21300086: killerklown_43
+    21300088: killerklown_44
+    21300090: killerklown_45
+    21300092: killerklown_46
+    21300094: killerklown_47
+    21300096: killerklown_48
+    21300098: killerklown_49
+    21300100: killerklown_50
+    21300102: killerklown_51
+    21300104: killerklown_52
+    21300106: killerklown_53
+    21300108: killerklown_54
+    21300110: killerklown_55
+    21300112: killerklown_56
+    21300114: killerklown_57
+    21300116: killerklown_58
+    21300118: killerklown_59
+    21300120: killerklown_60
+    21300122: killerklown_61
+    21300124: killerklown_62
+    21300126: killerklown_63
+    21300128: killerklown_64
+    21300130: killerklown_65
+    21300132: killerklown_66
+    21300134: killerklown_67
+    21300136: killerklown_68
+    21300138: killerklown_69
+    21300140: killerklown_70
+    21300142: killerklown_71
+    21300144: killerklown_72
+    21300146: killerklown_73
+    21300148: killerklown_74
+    21300150: killerklown_75
+    21300152: killerklown_76
+    21300154: killerklown_77
+    21300156: killerklown_78
+    21300158: killerklown_79
+    21300160: killerklown_80
+    21300162: killerklown_81
+    21300164: killerklown_82
+    21300166: killerklown_83
+    21300168: killerklown_84
+    21300170: killerklown_85
+    21300172: killerklown_86
+    21300174: killerklown_87
+    21300176: killerklown_88
+    21300178: killerklown_89
+    21300180: killerklown_90
+    21300182: killerklown_91
+    21300184: killerklown_92
+    21300186: killerklown_93
+    21300188: killerklown_94
+    21300190: killerklown_95
+    21300192: killerklown_96
+    21300194: killerklown_97
+    21300196: killerklown_98
+    21300198: killerklown_99
+    21300200: killerklown_100
+    21300202: killerklown_101
+    21300204: killerklown_102
+    21300206: killerklown_103
+    21300208: killerklown_104
+    21300210: killerklown_105
+    21300212: killerklown_106
+    21300214: killerklown_107
+    21300216: killerklown_108
+    21300218: killerklown_109
+    21300220: killerklown_110
+    21300222: killerklown_111
+    21300224: killerklown_112
+    21300226: killerklown_113
+    21300228: killerklown_114
+    21300230: killerklown_115
+    21300232: killerklown_116
+    21300234: killerklown_117
+    21300236: killerklown_118
+    21300238: killerklown_119
+    21300240: killerklown_120
+    21300242: killerklown_121
+    21300244: killerklown_122
+    21300246: killerklown_123
+    21300248: killerklown_124
+    21300250: killerklown_125
+    21300252: killerklown_126
+    21300254: killerklown_127
+    21300256: killerklown_128
+    21300258: killerklown_129
+    21300260: killerklown_130
+    21300262: killerklown_131
+    21300264: killerklown_132
+    21300266: killerklown_133
+    21300268: killerklown_134
+    21300270: killerklown_135
+    21300272: killerklown_136
+    21300274: killerklown_137
+    21300276: killerklown_138
+    21300278: killerklown_139
+    21300280: killerklown_140
+    21300282: killerklown_141
+    21300284: killerklown_142
+    21300286: killerklown_143
+    21300288: killerklown_144
+    21300290: killerklown_145
+    21300292: killerklown_146
+    21300294: killerklown_147
+    21300296: killerklown_148
+    21300298: killerklown_149
+    21300300: killerklown_150
+    21300302: killerklown_151
+    21300304: killerklown_152
+    21300306: killerklown_153
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: killerklown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 29}
+        - {x: -27.5, y: 26}
+        - {x: -27.5, y: -19}
+        - {x: -25.5, y: -21}
+        - {x: -19.5, y: -29}
+        - {x: 27.5, y: -29}
+        - {x: 27.5, y: 24}
+        - {x: 21.5, y: 29}
+    - name: killerklown_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 488
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 29}
+        - {x: -27.5, y: 26}
+        - {x: -27.5, y: -21}
+        - {x: -13.5, y: -29}
+        - {x: 27.5, y: -29}
+        - {x: 27.5, y: 27}
+        - {x: 24.5, y: 29}
+    - name: killerklown_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 488
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 7.5}
+        - {x: 20.5, y: 29.5}
+        - {x: -27.5, y: 29.5}
+        - {x: -27.5, y: -20.5}
+        - {x: -23.5, y: -29.5}
+        - {x: 10.5, y: -29.5}
+        - {x: 8.5, y: -22.5}
+        - {x: 27.5, y: -14.5}
+    - name: killerklown_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 488
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 19.5}
+        - {x: 21.5, y: 29.5}
+        - {x: -27.5, y: 29.5}
+        - {x: -27.5, y: -20.5}
+        - {x: -23.5, y: -29.5}
+        - {x: 10.5, y: -29.5}
+        - {x: 8.5, y: -22.5}
+        - {x: 27.5, y: -14.5}
+    - name: killerklown_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 488
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 29.5}
+        - {x: -20.5, y: 29.5}
+        - {x: -27.5, y: 26.5}
+        - {x: -27.5, y: -18.5}
+        - {x: -25.5, y: -20.5}
+        - {x: -18.5, y: -25.5}
+        - {x: -7.5, y: -29.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 27.5, y: -13.5}
+        - {x: 27.5, y: -2.5}
+        - {x: 22.5, y: 20.5}
+    - name: killerklown_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 488
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 29.5}
+        - {x: -20.5, y: 29.5}
+        - {x: -27.5, y: 26.5}
+        - {x: -27.5, y: -18.5}
+        - {x: -25.5, y: -20.5}
+        - {x: -18.5, y: -25.5}
+        - {x: -7.5, y: -29.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 27.5, y: -13.5}
+        - {x: 27.5, y: -2.5}
+        - {x: 22.5, y: 20.5}
+    - name: killerklown_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 494
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26.5}
+        - {x: -21, y: 20.5}
+        - {x: -19, y: 17.5}
+        - {x: -16, y: 16.5}
+        - {x: -23, y: 1.5}
+        - {x: -24, y: -8.5}
+        - {x: -24, y: -25.5}
+        - {x: -22, y: -26.5}
+        - {x: 24, y: -26.5}
+        - {x: 24, y: 26.5}
+    - name: killerklown_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 489
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 4}
+        - {x: 6.5, y: 29}
+        - {x: -18.5, y: 29}
+        - {x: -27.5, y: 27}
+        - {x: -27.5, y: -29}
+        - {x: 27.5, y: -29}
+        - {x: 27.5, y: -10}
+    - name: killerklown_8
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 488
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 28}
+        - {x: -29.5, y: 23}
+        - {x: -29.5, y: -28}
+        - {x: 26.5, y: -28}
+        - {x: 29.5, y: -27}
+        - {x: 29.5, y: 26}
+        - {x: 22.5, y: 28}
+    - name: killerklown_9
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 488
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -29, y: 24}
+        - {x: -29, y: -28}
+        - {x: 29, y: -28}
+        - {x: 29, y: 28}
+    - name: killerklown_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 488
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 28}
+        - {x: -29, y: 18}
+        - {x: -29, y: -27}
+        - {x: -28, y: -28}
+        - {x: 29, y: -28}
+        - {x: 29, y: 19}
+        - {x: 12, y: 28}
+    - name: killerklown_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 488
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 28.5}
+        - {x: -29, y: -28.5}
+        - {x: 29, y: -28.5}
+        - {x: 29, y: 24.5}
+        - {x: 19, y: 28.5}
+    - name: killerklown_12
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 488
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 28.5}
+        - {x: -29, y: 18.5}
+        - {x: -29, y: -26.5}
+        - {x: -27, y: -28.5}
+        - {x: 29, y: -28.5}
+        - {x: 29, y: 28.5}
+    - name: killerklown_13
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 488
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 28.5}
+        - {x: -29, y: 18.5}
+        - {x: -29, y: -26.5}
+        - {x: -27, y: -28.5}
+        - {x: 29, y: -28.5}
+        - {x: 29, y: 28.5}
+    - name: killerklown_14
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 488
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 29}
+        - {x: -21, y: 29}
+        - {x: -29, y: 19}
+        - {x: -29, y: -28}
+        - {x: -22, y: -29}
+        - {x: -1, y: -29}
+        - {x: -1, y: -28}
+        - {x: 29, y: -25}
+        - {x: 29, y: 27}
+    - name: killerklown_15
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 488
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 29}
+        - {x: -29, y: 27}
+        - {x: -29, y: -29}
+        - {x: 29, y: -29}
+        - {x: 29, y: 29}
+    - name: killerklown_16
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 488
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 29}
+        - {x: -29.5, y: 19}
+        - {x: -29.5, y: -27}
+        - {x: -27.5, y: -29}
+        - {x: 11.5, y: -29}
+        - {x: 29.5, y: -21}
+        - {x: 29.5, y: 22}
+        - {x: 20.5, y: 29}
+    - name: killerklown_17
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 488
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 29}
+        - {x: -29.5, y: 28}
+        - {x: -29.5, y: -29}
+        - {x: 23.5, y: -29}
+        - {x: 29.5, y: -25}
+        - {x: 29.5, y: 22}
+        - {x: 20.5, y: 29}
+    - name: killerklown_18
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 494
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26.5}
+        - {x: -21, y: 20.5}
+        - {x: -19, y: 17.5}
+        - {x: -16, y: 16.5}
+        - {x: -23, y: 1.5}
+        - {x: -24, y: -8.5}
+        - {x: -24, y: -25.5}
+        - {x: -22, y: -26.5}
+        - {x: 24, y: -26.5}
+        - {x: 24, y: 26.5}
+    - name: killerklown_19
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 489
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 29}
+        - {x: -18.5, y: 24}
+        - {x: -25.5, y: 2}
+        - {x: -25.5, y: -20}
+        - {x: -17.5, y: -25}
+        - {x: -13.5, y: -25}
+        - {x: -3.5, y: -29}
+        - {x: 17.5, y: -29}
+        - {x: 25.5, y: -18}
+        - {x: 25.5, y: 14}
+        - {x: 20.5, y: 29}
+    - name: killerklown_20
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 489
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 28.5}
+        - {x: -27.5, y: 25.5}
+        - {x: -27.5, y: -19.5}
+        - {x: -20.5, y: -28.5}
+        - {x: 27.5, y: -28.5}
+        - {x: 27.5, y: 27.5}
+        - {x: 26.5, y: 28.5}
+    - name: killerklown_21
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 489
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 28.5}
+        - {x: -27.5, y: 25.5}
+        - {x: -27.5, y: -19.5}
+        - {x: -20.5, y: -28.5}
+        - {x: 27.5, y: -28.5}
+        - {x: 27.5, y: 27.5}
+        - {x: 26.5, y: 28.5}
+    - name: killerklown_22
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 489
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 29}
+        - {x: -20.5, y: 29}
+        - {x: -27.5, y: 26}
+        - {x: -27.5, y: -19}
+        - {x: -25.5, y: -21}
+        - {x: -21.5, y: -21}
+        - {x: -10.5, y: -29}
+        - {x: 11.5, y: -29}
+        - {x: 27.5, y: -15}
+        - {x: 27.5, y: -2}
+        - {x: 22.5, y: 20}
+    - name: killerklown_23
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 490
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 29}
+        - {x: -20.5, y: 29}
+        - {x: -27.5, y: 26}
+        - {x: -27.5, y: -19}
+        - {x: -25.5, y: -21}
+        - {x: -21.5, y: -21}
+        - {x: -10.5, y: -29}
+        - {x: 11.5, y: -29}
+        - {x: 27.5, y: -15}
+        - {x: 27.5, y: -2}
+        - {x: 22.5, y: 20}
+    - name: killerklown_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 403
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 19}
+        - {x: 2.5, y: 33}
+        - {x: -14.5, y: 33}
+        - {x: -25.5, y: 22}
+        - {x: -25.5, y: -33}
+        - {x: 25.5, y: -33}
+        - {x: 25.5, y: -14}
+    - name: killerklown_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 403
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 34}
+        - {x: -36.5, y: 22}
+        - {x: -36.5, y: 5}
+        - {x: -32.5, y: -11}
+        - {x: -10.5, y: -34}
+        - {x: 30.5, y: -34}
+        - {x: 36.5, y: -31}
+        - {x: 36.5, y: 23}
+        - {x: 25.5, y: 34}
+    - name: killerklown_26
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 403
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 5.5}
+        - {x: 30.5, y: 34.5}
+        - {x: -3.5, y: 34.5}
+        - {x: -36.5, y: 26.5}
+        - {x: -36.5, y: 4.5}
+        - {x: -10.5, y: -34.5}
+        - {x: 3.5, y: -34.5}
+        - {x: 4.5, y: -33.5}
+        - {x: 33.5, y: -27.5}
+        - {x: 36.5, y: -22.5}
+    - name: killerklown_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 409
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 31}
+        - {x: -24, y: 17}
+        - {x: -24, y: -31}
+        - {x: 24, y: -31}
+        - {x: 24, y: 12}
+        - {x: 23, y: 19}
+        - {x: 9, y: 31}
+    - name: killerklown_28
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 404
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 33}
+        - {x: -23.5, y: 20}
+        - {x: -23.5, y: -24}
+        - {x: -15.5, y: -29}
+        - {x: -11.5, y: -29}
+        - {x: -1.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 33}
+    - name: killerklown_29
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 403
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 34}
+        - {x: -30.5, y: -9}
+        - {x: -30.5, y: -25}
+        - {x: -28.5, y: -27}
+        - {x: -21.5, y: -32}
+        - {x: -16.5, y: -34}
+        - {x: 13.5, y: -34}
+        - {x: 30.5, y: 3}
+        - {x: 30.5, y: 22}
+        - {x: -6.5, y: 34}
+    - name: killerklown_30
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 403
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 23}
+        - {x: 0.5, y: 26}
+        - {x: -8.5, y: 35}
+        - {x: -22.5, y: 35}
+        - {x: -30.5, y: -8}
+        - {x: -30.5, y: -35}
+        - {x: 30.5, y: -35}
+        - {x: 30.5, y: 31}
+        - {x: 8.5, y: 25}
+    - name: killerklown_31
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 403
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 22}
+        - {x: 14.5, y: 26}
+        - {x: 9.5, y: 25}
+        - {x: 7.5, y: 23}
+        - {x: 0.5, y: 26}
+        - {x: -8.5, y: 35}
+        - {x: -22.5, y: 35}
+        - {x: -30.5, y: -8}
+        - {x: -30.5, y: -24}
+        - {x: -28.5, y: -26}
+        - {x: -21.5, y: -31}
+        - {x: -10.5, y: -35}
+        - {x: 10.5, y: -35}
+        - {x: 11.5, y: -29}
+        - {x: 30.5, y: 2}
+    - name: killerklown_32
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 403
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 35}
+        - {x: -30.5, y: 20}
+        - {x: -30.5, y: -25}
+        - {x: -28.5, y: -26}
+        - {x: -21.5, y: -31}
+        - {x: -10.5, y: -35}
+        - {x: 12.5, y: -35}
+        - {x: 30.5, y: 2}
+        - {x: 30.5, y: 29}
+        - {x: 22.5, y: 35}
+    - name: killerklown_33
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 404
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 19}
+        - {x: 2.5, y: 33}
+        - {x: -14.5, y: 33}
+        - {x: -25.5, y: 22}
+        - {x: -25.5, y: -33}
+        - {x: 25.5, y: -33}
+        - {x: 25.5, y: -14}
+    - name: killerklown_34
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 404
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: -28}
+        - {x: -4.5, y: -27}
+        - {x: -0.5, y: -31}
+        - {x: 2.5, y: -31}
+        - {x: 10.5, y: -29}
+        - {x: 14.5, y: -21}
+        - {x: 9.5, y: -19}
+        - {x: 20.5, y: -3}
+        - {x: 20.5, y: 31}
+        - {x: 18.5, y: 34}
+        - {x: -7.5, y: 34}
+        - {x: -20.5, y: 27}
+        - {x: -20.5, y: -34}
+        - {x: -2.5, y: -34}
+        - {x: -2.5, y: -30}
+        - {x: -4.5, y: -28}
+    - name: killerklown_35
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 404
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 28.5}
+        - {x: -21.5, y: 28.5}
+        - {x: -29.5, y: 23.5}
+        - {x: -29.5, y: -3.5}
+        - {x: -22.5, y: -26.5}
+        - {x: -16.5, y: -28.5}
+        - {x: 3.5, y: -28.5}
+        - {x: 29.5, y: -0.5}
+        - {x: 29.5, y: 12.5}
+        - {x: 28.5, y: 15.5}
+    - name: killerklown_36
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 404
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 28.5}
+        - {x: -24.5, y: 10.5}
+        - {x: -24.5, y: -9.5}
+        - {x: -11.5, y: -28.5}
+        - {x: 12.5, y: -28.5}
+        - {x: 24.5, y: -12.5}
+        - {x: 24.5, y: 20.5}
+        - {x: 15.5, y: 28.5}
+    - name: killerklown_37
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 404
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28.5}
+        - {x: -19, y: 15.5}
+        - {x: -19, y: -5.5}
+        - {x: -11, y: -28.5}
+        - {x: 14, y: -28.5}
+        - {x: 19, y: -22.5}
+        - {x: 19, y: 28.5}
+    - name: killerklown_38
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 404
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 27.5}
+        - {x: -21, y: 27.5}
+        - {x: -21, y: -27.5}
+        - {x: 11, y: -27.5}
+        - {x: 21, y: -2.5}
+        - {x: 21, y: 15.5}
+    - name: killerklown_39
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 404
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 26}
+        - {x: -25.5, y: 20}
+        - {x: -24.5, y: 17}
+        - {x: -21.5, y: 16}
+        - {x: -37.5, y: 9}
+        - {x: -38.5, y: 0}
+        - {x: -38.5, y: -4}
+        - {x: -33.5, y: -5}
+        - {x: -26.5, y: -6}
+        - {x: -38.5, y: -20}
+        - {x: -38.5, y: -26}
+        - {x: 20.5, y: -26}
+        - {x: 38.5, y: -13}
+        - {x: 38.5, y: 14}
+        - {x: 24.5, y: 26}
+    - name: killerklown_40
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 327
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -21}
+        - {x: 22.5, y: 29}
+        - {x: -19.5, y: 29}
+        - {x: -22.5, y: 21}
+        - {x: -22.5, y: -29}
+        - {x: 10.5, y: -29}
+        - {x: 11.5, y: -28}
+        - {x: 11.5, y: -25}
+    - name: killerklown_41
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 325
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 29.5}
+        - {x: -30, y: 21.5}
+        - {x: -30, y: -24.5}
+        - {x: -11, y: -29.5}
+        - {x: 20, y: -29.5}
+        - {x: 26, y: -14.5}
+        - {x: 26, y: 10.5}
+        - {x: 21, y: 29.5}
+    - name: killerklown_42
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 280
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_43
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 289
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_44
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 290
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_45
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 290
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_46
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 291
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_47
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 299
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_48
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 302
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_49
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 299
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_50
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 299
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_51
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 265
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_52
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 272
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_53
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 275
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_54
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 265
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_55
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 224
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 35.5}
+        - {x: -35, y: 7.5}
+        - {x: -35, y: -7.5}
+        - {x: -2, y: -35.5}
+        - {x: 3, y: -35.5}
+        - {x: 35, y: -6.5}
+        - {x: 35, y: 10.5}
+        - {x: 4, y: 35.5}
+    - name: killerklown_56
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 285
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_57
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 248
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_58
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 265
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_59
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 275
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_60
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 249
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_61
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 232
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_62
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 251
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_63
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 259
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_64
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 259
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_65
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 241
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_66
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 232
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_67
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 234
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_68
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 234
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_69
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 218
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_70
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 232
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_71
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 208
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_72
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 217
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_73
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 201
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_74
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 201
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_75
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 202
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_76
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 213
+        width: 60
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 208
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_78
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 203
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_79
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 186
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_80
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 184
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_81
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 184
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_82
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 187
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_83
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 187
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_84
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 184
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_85
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 152
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_86
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 177
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_87
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 159
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_88
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 155
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_89
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 168
+        width: 39
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_90
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 165
+        width: 53
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_91
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 124
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_92
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 135
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_93
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 149
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_94
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 149
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_95
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 149
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_96
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 136
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_97
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 130
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_98
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 127
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_99
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 130
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_100
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 130
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_101
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 130
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_102
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 113
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_103
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 111
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_104
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 103
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -16}
+        - {x: -18.5, y: -16}
+        - {x: -18.5, y: -15}
+        - {x: -21.5, y: -12}
+        - {x: -22.5, y: -12}
+      - - {x: 6.5, y: -7}
+        - {x: 1.5, y: -7}
+        - {x: -11.5, y: -14}
+        - {x: -11.5, y: -16}
+        - {x: 8.5, y: -16}
+        - {x: 8.5, y: -9}
+      - - {x: -22.5, y: 16}
+        - {x: -22.5, y: 7}
+        - {x: 13.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 22.5, y: -14}
+        - {x: 22.5, y: 2}
+        - {x: -4.5, y: 16}
+    - name: killerklown_105
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 111
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_106
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 108
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_107
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 111
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_108
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 111
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_109
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 111
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_110
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 105
+        width: 52
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_111
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 82
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_112
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 83
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_113
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 80
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_114
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 89
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_115
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 92
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_116
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 92
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_117
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 82
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_118
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 82
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_119
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 73
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_120
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 58
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_121
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 58
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_122
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 60
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_123
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 57
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_124
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 73
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_125
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 70
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_126
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 73
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_127
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 73
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 56
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_129
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 55
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_130
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 51
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_131
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 51
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_132
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 48
+        width: 49
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_133
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 51
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_134
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 23
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_135
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 23
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_136
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 23
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_137
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 40
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_138
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 40
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_139
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 34
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_140
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 34
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_141
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 34
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_142
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 34
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_143
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 34
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_144
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 24
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_145
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 24
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_146
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 33
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_147
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_148
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_149
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 17
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_150
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 14
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_151
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_152
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 14
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: killerklown_153
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 17
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
