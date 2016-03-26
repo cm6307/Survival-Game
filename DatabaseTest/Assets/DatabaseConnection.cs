@@ -4,7 +4,6 @@ using System.Data;
 using System.Text;
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
@@ -15,13 +14,9 @@ public class DatabaseConnection : MonoBehaviour {
 
     private string connectionString;
     private MySqlConnection connection = null;
-    private MySqlCommand command = null;
-    private MySqlDataReader reader = null;
-    private MD5 _md5Hash;
 
-    void Awake()
+    void OpenConnection()
     {
-        DontDestroyOnLoad(this.gameObject);
         connectionString = "Server=" + host + ";Database=" + database + ";User=" + user + ";Password=" + password + ";Pooling=";
         if (pooling)
         {
@@ -43,7 +38,26 @@ public class DatabaseConnection : MonoBehaviour {
         }
     }
 
-    void OnApplicationQuit()
+    public void RunQuery(string query)
+    {
+        MySqlCommand command = new MySqlCommand(query, connection);
+        command.CommandText = query;
+        try
+        {
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                // Still need to figure out how to return this data
+                Debug.Log(reader.GetString(1));
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e);
+        }
+    }
+
+    void CloseConnection()
     {
         if (connection != null)
         {
@@ -54,6 +68,17 @@ public class DatabaseConnection : MonoBehaviour {
             }
             connection.Dispose();
         }
+    }
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        OpenConnection();
+    }
+
+    void OnApplicationQuit()
+    {
+        CloseConnection();
     }
 
 }
