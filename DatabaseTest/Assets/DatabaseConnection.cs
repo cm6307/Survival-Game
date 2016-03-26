@@ -32,28 +32,40 @@ public class DatabaseConnection : MonoBehaviour {
             connection.Open();
             Debug.Log("Connection to database was successful.");
         }
-        catch (Exception e)
+        catch (MySqlException e)
         {
+            // TO DO: set a timeout and try again!
             Debug.Log(e);
         }
     }
 
-    public void RunQuery(string query)
+    public MySqlDataReader RunReadQuery(string query)
     {
         MySqlCommand command = new MySqlCommand(query, connection);
         command.CommandText = query;
         try
         {
-            MySqlDataReader reader = command.ExecuteReader();
-            while (reader.Read())
-            {
-                // Still need to figure out how to return this data
-                Debug.Log(reader.GetString(1));
-            }
+            return command.ExecuteReader();
         }
-        catch (Exception e)
+        catch (MySqlException e)
         {
             Debug.Log(e);
+            throw e;
+        }
+    }
+
+    public void RunWriteQuery(string query)
+    {
+        MySqlCommand command = new MySqlCommand(query, connection);
+        command.CommandText = query;
+        try
+        {
+            command.ExecuteNonQuery();
+        }
+        catch (MySqlException e)
+        {
+            Debug.Log(e);
+            throw e;
         }
     }
 
