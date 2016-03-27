@@ -112,7 +112,7 @@ public class Enemy : MovingObject
     void Update()
     {
         // Auto-fire
-        if (isLongRange == true && weapon != null && weapon.CanAttack && Vector3.Distance(transform.position, target.position) > attackDistance)
+        if (isLongRange == true && weapon != null && weapon.CanAttack && Vector3.Distance(transform.position, target.position) < attackDistance)
         {
             animator.SetTrigger("enemyAttack");            
             weapon.Attack(true);
@@ -121,7 +121,9 @@ public class Enemy : MovingObject
     
     void FixedUpdate()
     {
-        MoveEnemy();
+
+        if (Vector3.Distance(transform.position, target.position) > attackDistance)
+            MoveEnemy();
     }
 
 }
