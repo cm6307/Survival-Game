@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BazookaKlown
+  m_Controller: {fileID: 9100000, guid: 0e5b6202a09ad0d468540a5c79560a57, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3644a3ad9ea826f45939fa5ab08523a1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b23f58353964a624191e12c7da1f1ca3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bec6b268bed88f24886c0da761004e2b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1c3c7608196475246adad7addf051c0a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4807e6f11f4c2784aa2b9453e6d5cab3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8d40e3b4b6eddd641a380e9b3ddbbe30, type: 2}

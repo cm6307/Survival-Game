@@ -16,7 +16,8 @@ GameObject:
   - 114: {fileID: 11404766}
   - 114: {fileID: 11428970}
   - 114: {fileID: 11409842}
-  m_Layer: 0
+  - 114: {fileID: 11497474}
+  m_Layer: 8
   m_Name: Robot
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -31,7 +32,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 439650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
@@ -46,7 +47,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 417054}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
@@ -193,6 +194,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1f1cde4c927f434ab13455f327576ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11497474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 127412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ff46b059bbf3b428eba0437a2b705e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 1
+  isEnemy: 0
 --- !u!212 &21237562
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -217,7 +231,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1783731295
+  m_SortingLayerID: 2073785783
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8fb98a6035269e64a998f9b56828fc4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -229,7 +243,27 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_SortingLayerID
+      value: 2073785783
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: isEnemy
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 127412}

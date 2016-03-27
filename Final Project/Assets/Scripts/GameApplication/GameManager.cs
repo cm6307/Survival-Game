@@ -8,16 +8,16 @@ using System.Collections;
     {
         public float levelStartDelay = 2f;                      //Time to wait before starting level, in seconds.
         public float turnDelay = 0.1f;                          //Delay between each Player turn.
-        public int playerFoodPoints = 100;                      //Starting value for Player food points.
+        //public int playerHealth = 100;                      //Starting value for Player food points.
         public static GameManager instance = null;              //Static instance of GameManager which allows it to be accessed by any other script.
         [HideInInspector]
-        public bool playersTurn = true;       //Boolean to check if it's players turn, hidden in inspector but public.
+        //public bool playersTurn = true;       //Boolean to check if it's players turn, hidden in inspector but public.
 
 
         private LevelManager levelScript;                       //Store a reference to our levelManager which will set up the level.
         private int level = 1;                                  //Current level number, expressed in game as "Day 1".
         private List<Enemy> enemies;                          //List of all Enemy units, used to issue them move commands.
-        private bool enemiesMoving;                             //Boolean to check if enemies are moving.
+        //private bool enemiesMoving;                             //Boolean to check if enemies are moving.
 
 
 
@@ -75,10 +75,10 @@ using System.Collections;
         void Update()
         {
             //Check that playersTurn or enemiesMoving or doingSetup are not currently true.
-            if (playersTurn || enemiesMoving)
+            //if (playersTurn || enemiesMoving)
 
                 //If any of these are true, return and do not start MoveEnemies.
-                return;
+                //return;
 
             //Start moving enemies.
             StartCoroutine(MoveEnemies());
@@ -97,7 +97,7 @@ using System.Collections;
         {
 
             //Enable black background image gameObject.
-            levelImage.SetActive(true);
+            //levelImage.SetActive(true);
 
             //Disable this GameManager.
             enabled = false;
@@ -107,7 +107,7 @@ using System.Collections;
         IEnumerator MoveEnemies()
         {
             //While enemiesMoving is true player is unable to move.
-            enemiesMoving = true;
+            //enemiesMoving = true;
 
             //Wait for turnDelay seconds, defaults to .1 (100 ms).
             yield return new WaitForSeconds(turnDelay);
@@ -129,9 +129,9 @@ using System.Collections;
                 yield return new WaitForSeconds(enemies[i].moveTime);
             }
             //Once Enemies are done moving, set playersTurn to true so player can move.
-            playersTurn = true;
+            //playersTurn = true;
 
             //Enemies are done moving, set enemiesMoving to false.
-            enemiesMoving = false;
+            //enemiesMoving = false;
         }
     }
