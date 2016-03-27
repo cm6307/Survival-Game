@@ -43,7 +43,7 @@ MonoBehaviour:
   enemy: {fileID: 195012, guid: 48e9fd9400fbebe47b31cdc06d289096, type: 2}
   spawnTime: 3
   spawnPoints:
-  - {fileID: 0}
+  - {fileID: 450706, guid: a97eec267fb39ae44b1fd67102fe20bf, type: 2}
 --- !u!114 &11498080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -58,14 +58,18 @@ MonoBehaviour:
   enemy: {fileID: 116708, guid: cab5569b6f01bde45af815e73f32d089, type: 2}
   spawnTime: 3
   spawnPoints:
-  - {fileID: 0}
+  - {fileID: 446668, guid: 9995f62dfbd99074aa2961ac369a7112, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: spawnPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 450706, guid: a97eec267fb39ae44b1fd67102fe20bf, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 113194}

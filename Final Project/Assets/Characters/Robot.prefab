@@ -205,8 +205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ff46b059bbf3b428eba0437a2b705e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1
+  hp: 100
   isEnemy: 0
+  healthSlider: {fileID: 0}
 --- !u!212 &21237562
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -264,6 +265,15 @@ Prefab:
       propertyPath: isEnemy
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hp
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 11467828, guid: 5017061501075cc47a2388de7406631d,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 127412}

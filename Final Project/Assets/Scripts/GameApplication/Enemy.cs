@@ -9,6 +9,7 @@ public class Enemy : MovingObject
     private Transform target;                           //Transform to attempt to move toward each turn.
     public bool isLongRange;                            // Determine whether or not enemy has weapon
     private Weapon weapon;
+    public float attackDistance;                        //Distance to start attack
     //private bool skipMove;                              //Boolean to determine whether or not enemy should skip a turn or move this turn.
 
     void Awake()
@@ -98,10 +99,10 @@ public class Enemy : MovingObject
     protected override void OnCantMove<T>(T component)
     {
         //Declare hitPlayer and set it to equal the encountered component.
-        //Player hitPlayer = component as Player;
+        Health playerHealth = component as Health;
 
         //Call the LoseFood function of hitPlayer passing it playerDamage, the amount of foodpoints to be subtracted.
-        //hitPlayer.LoseHealth(playerDamage);
+        playerHealth.Damage(playerDamage);
 
         //Set the attack trigger of animator to trigger Enemy attack animation.
         animator.SetTrigger("enemyAttack");
@@ -111,15 +112,16 @@ public class Enemy : MovingObject
     void Update()
     {
         // Auto-fire
-        if (isLongRange == true && weapon != null && weapon.CanAttack)
-        {                        
+        if (isLongRange == true && weapon != null && weapon.CanAttack && Vector3.Distance(transform.position, target.position) > attackDistance)
+        {
+            animator.SetTrigger("enemyAttack");            
             weapon.Attack(true);
         }
     }
     
     void FixedUpdate()
     {
-        //MoveEnemy();
+        MoveEnemy();
     }
 
 }

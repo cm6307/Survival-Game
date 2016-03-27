@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  isShot: 0
+  isEnemyShot: 1
 --- !u!212 &21251512
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -150,6 +150,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: isEnemyShot
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

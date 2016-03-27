@@ -1,20 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
 
     // Total hitpoints
-    public int hp = 1;
-
+    public int hp = 100;    
     // Enemy or player?  
-    public bool isEnemy = true;
+    public bool isEnemy = false;
+
+    public Slider healthSlider;
+    //public Image damageImage;
+    //public float flashSpeed = 5f;
+    //public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
 
 
-    /// Inflicts damage and check if the object should be destroyed
+    // Inflicts damage and check if the object should be destroyed
     public void Damage(int damageCount)
     {
         hp -= damageCount;
+        //healthSlider.value = hp;
 
         if (hp <= 0)
         {
@@ -33,8 +39,7 @@ public class Health : MonoBehaviour
             if (shot.isEnemyShot != isEnemy)
             {
                 Damage(shot.damage);
-
-                // Destroy the shot
+                // Destroy the shot                           
                 Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script
             }
         }

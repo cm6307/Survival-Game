@@ -6,6 +6,7 @@ public class Move : MonoBehaviour
     // Object speed
     public Vector2 speed = new Vector2(10, 10);
 
+    Animator animator;
 
     // Moving direction
     public Vector2 direction = new Vector2(-1, 0);
@@ -25,4 +26,5 @@ public class Move : MonoBehaviour
         // Apply movement to the rigidbody
         GetComponent<Rigidbody2D>().velocity = movement;
     }
+
 }

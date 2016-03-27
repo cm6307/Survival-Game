@@ -18,8 +18,4 @@ public class Shooting : MonoBehaviour
         Destroy(gameObject, 20); // 20sec
     }
 
-    void OnTriggerEnter2D(Collider2D otherCollider)
-    {
-        animator.SetTrigger("impact");
-    }
 }
