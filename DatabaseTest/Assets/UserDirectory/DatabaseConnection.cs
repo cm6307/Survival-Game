@@ -49,7 +49,6 @@ public class DatabaseConnection : MonoBehaviour {
         }
         catch (MySqlException e)
         {
-            Debug.Log(e);
             throw e;
         }
     }
@@ -64,7 +63,6 @@ public class DatabaseConnection : MonoBehaviour {
         }
         catch (MySqlException e)
         {
-            Debug.Log(e);
             throw e;
         }
     }
