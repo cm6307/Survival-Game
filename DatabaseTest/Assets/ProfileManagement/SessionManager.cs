@@ -50,4 +50,34 @@ public class SessionManager : MonoBehaviour {
         }
     }
 
+    public void Logout(string username)
+    {
+
+    }
+
+    public int GetUserPoints(string username)
+    {
+        return 0;
+    }
+
+    public int GetCharacterCost(string charname)
+    {
+        return 0;
+    }
+
+    public void AddPointsToUser(string username, int points)
+    {
+
+    }
+
+    public void UnlockCharacter(string username, string charname)
+    {
+
+    }
+
+    public bool IsCharacterUnlocked(string username, string charname)
+    {
+        return false;
+    }
+
 }
