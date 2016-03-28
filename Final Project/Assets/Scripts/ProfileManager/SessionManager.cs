@@ -8,6 +8,27 @@ public class SessionManager : MonoBehaviour {
     private string[] LoggedUsers = new string[4];
     private int[] PointsEarned = new int[4];
 
+    private static SessionManager s_Instance = null;
+    
+    public static SessionManager instance
+    {
+        get
+        {
+            if (s_Instance == null)
+            {
+                s_Instance = FindObjectOfType(typeof(SessionManager)) as SessionManager;
+            }
+
+            if (s_Instance == null)
+            {
+                GameObject obj = new GameObject("SessionManager");
+                s_Instance = obj.AddComponent(typeof(SessionManager)) as SessionManager;
+            }
+
+            return s_Instance;
+        }
+    }
+
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);

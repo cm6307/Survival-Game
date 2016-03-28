@@ -390,7 +390,7 @@ GameObject:
   - 114: {fileID: 781499817}
   - 114: {fileID: 781499816}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: ExitGameButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1071577503}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c00697637cf31a94286290b8c6d1f838, type: 3}
+  m_Script: {fileID: 11500000, guid: afdf360cedf7ea0439c268b2ae2131b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1095425030
@@ -735,7 +735,7 @@ GameObject:
   - 114: {fileID: 1547316846}
   - 114: {fileID: 1547316845}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartGameButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -797,7 +797,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1547316846}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1071577508}
+        m_MethodName: LoadScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1547316846

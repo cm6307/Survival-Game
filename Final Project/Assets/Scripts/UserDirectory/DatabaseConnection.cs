@@ -9,8 +9,10 @@ using MySql.Data.MySqlClient;
 
 public class DatabaseConnection : MonoBehaviour {
 
-    public string host, database, user, password;
-    public bool pooling = true;
+    [SerializeField]
+    private string host, database, user, password;
+    [SerializeField]
+    private bool pooling = true;
 
     private string connectionString;
     private MySqlConnection connection = null;
