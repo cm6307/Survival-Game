@@ -38,6 +38,11 @@ public class SessionManager : MonoBehaviour {
         }
     }
 
+    public string GetUserAt(int position)
+    {
+        return LoggedUsers[position];
+    }
+
     // Remember to call this after every match!
     public void SendPointsToDatabase()
     {
