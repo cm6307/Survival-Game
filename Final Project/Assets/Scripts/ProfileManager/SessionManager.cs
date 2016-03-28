@@ -93,7 +93,7 @@ public class SessionManager : MonoBehaviour {
         }
         else
         {
-            throw new System.InvalidOperationException("Wrong password.");
+            throw new System.InvalidOperationException("Wrong username or password.");
         }
     }
 

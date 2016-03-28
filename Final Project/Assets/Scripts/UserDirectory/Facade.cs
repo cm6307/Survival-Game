@@ -166,4 +166,9 @@ public class Facade : MonoBehaviour {
         return sb.ToString();
     }
 
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
 }
