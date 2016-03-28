@@ -43,7 +43,6 @@ public class PressStart : MonoBehaviour
         {
             if (Input.GetButtonUp("P" + Convert.ToString(i+1) + "_Start") && free[i])
             {
-                // CreatePlayer(i+1);
                 CreateGuestLogin(i);
             }
         }
@@ -64,7 +63,7 @@ public class PressStart : MonoBehaviour
     // Here just as an example, have to change that function
     void CreatePlayer(int player_num)
     {
-        GameObject p = Instantiate(player, boxPosition[player_num], Quaternion.identity) as GameObject;
+        GameObject p = Instantiate(player) as GameObject;
         InputManager im = p.GetComponent<InputManager>();
         im.SetID(player_num);
     }
