@@ -15,8 +15,7 @@ using UnityEngine.UI;
         public GameObject enemyFactory;                         // Instance of EnemyFactory
         public GameObject[] players;
         private Text levelText;                                 //Text to display current level number.
-        private GameObject levelImage;                          //Image to block out level as levels are being set up, background for levelText.    
-        private GameObject hudCanvas;
+        private GameObject levelImage;                          //Image to block out level as levels are being set up, background for levelText.  
         private bool doingSetup = true;                         //Boolean to check if we're setting up board, prevent Player from moving during setup.
         
 
@@ -101,7 +100,7 @@ using UnityEngine.UI;
 
             //Set doingSetup to false allowing player to move again.
             doingSetup = false;
-
+            
             Instantiate(enemyFactory);
 
         }
