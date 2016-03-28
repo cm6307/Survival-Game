@@ -20,12 +20,13 @@ public class Health : MonoBehaviour
     public void Damage(int damageCount)
     {
         hp -= damageCount;
-        //healthSlider.value = hp;
+        healthSlider.value = hp;
 
         if (hp <= 0)
         {
             // Dead!
             Destroy(gameObject);
+            GameManager.instance.GameOver();
         }
     }
 

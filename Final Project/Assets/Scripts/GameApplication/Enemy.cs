@@ -26,7 +26,8 @@ public class Enemy : MovingObject
     {
         //Register this enemy with our instance of GameManager by adding it to a list of Enemy objects. 
         //This allows the GameManager to issue movement commands.
-        //GameManager.instance.AddEnemyToList(this);
+        GameManager.instance.AddEnemyToList(this);
+        GameManager.instance.updateEnemiesToSpawn();        
 
         //Get and store a reference to the attached Animator component.
         animator = GetComponent<Animator>();
@@ -42,20 +43,10 @@ public class Enemy : MovingObject
     //Override the AttemptMove function of MovingObject to include functionality needed for Enemy to skip turns.
     //See comments in MovingObject for more on how base AttemptMove function works.
     protected override void AttemptMove<T>(int xDir, int yDir)
-    {
-        //Check if skipMove is true, if so set it to false and skip this turn.
-        /*if (skipMove)
-        {
-            skipMove = false;
-            return;
-
-        }*/
-
+    {        
         //Call the AttemptMove function from MovingObject.
         base.AttemptMove<T>(xDir, yDir);
-
-        //Now that Enemy has moved, set skipMove to true to skip next move.
-        //skipMove = true;
+        
     }
 
 
