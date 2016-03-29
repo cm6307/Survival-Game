@@ -41,6 +41,12 @@ public class Enemy : MovingObject
         base.Start();
     }
 
+    public void Die()
+    {
+        animator.SetTrigger("enemyDeath");
+        Destroy(this.gameObject, 2f);
+    }
+
 
     //Override the AttemptMove function of MovingObject to include functionality needed for Enemy to skip turns.
     //See comments in MovingObject for more on how base AttemptMove function works.
@@ -92,7 +98,7 @@ public class Enemy : MovingObject
     {
 
         //Declare hitPlayer and set it to equal the encountered component.
-        Health playerHealth = component as Health;
+        Health playerHealth = component.GetComponent<Health>();
 
         //Call the LoseFood function of hitPlayer passing it playerDamage, the amount of foodpoints to be subtracted.
         playerHealth.Damage(playerDamage);

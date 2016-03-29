@@ -13,6 +13,7 @@ public class Character : MonoBehaviour
     private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
     [SerializeField]
     private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
+    private bool dead;
 
     private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
     const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
@@ -30,6 +31,7 @@ public class Character : MonoBehaviour
         m_CeilingCheck = transform.Find("CeilingCheck");
         m_Anim = GetComponent<Animator>();
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        dead = false;
     }
 
     private void FixedUpdate()
@@ -59,8 +61,16 @@ public class Character : MonoBehaviour
         }
     }
 
+    public void Die()
+    {
+        m_Anim.SetTrigger("Death");
+        dead = true;
+    }
+
     public void Move(float move, bool jump)
     {
+        if (dead)
+            return;
 
         //only control the player if grounded or airControl is turned on
         if (m_Grounded || m_AirControl)
