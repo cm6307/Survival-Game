@@ -217,6 +217,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterText: {fileID: 11488500}
   usernameText: {fileID: 11485456}
+  unlockButton: {fileID: 11499564, guid: 5d0b13e6db67b274ab38950be0f10e9f, type: 2}
+  canvas: {fileID: 0}
 --- !u!114 &11482134
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -10,17 +10,23 @@ public class UnlockOrSelect : MonoBehaviour {
     [SerializeField]
     private Text usernameText;
     private string username;
-    private bool unlocked;
+    private bool unlocked = false;
+    [SerializeField]
+    private Button unlockButton;
+    private Button ubInstance = null;
+    private Button seInstance = null;
+    private GameObject canvas;
 
 	// Use this for initialization
 	void Start () {
+        canvas = GameObject.FindGameObjectWithTag("Canvas");
         charname = characterText.text;
         username = usernameText.text;
         unlocked = SessionManager.instance.IsCharacterUnlocked(username, charname);
         if (!unlocked)
         {
             // create unlock button here
-            Debug.Log("Not unlocked!");
+            CreateUnlockButton();
         }
         else
         {
@@ -28,20 +34,23 @@ public class UnlockOrSelect : MonoBehaviour {
             Debug.Log("Unlocked!");
         }
 	}
-	
-    public void Unlock()
-    {
-        SessionManager.instance.UnlockCharacter(username, charname);
-        // destroy unlock button, create select one
-    }
 
-    public void Select()
+    private void CreateUnlockButton()
     {
-        // idk, select somehow
+        Vector3 parentPosition = usernameText.transform.parent.localPosition;
+        Button ub = Instantiate(unlockButton) as Button;
+        ub.transform.SetParent(canvas.transform, false);
+        ub.transform.localPosition = parentPosition + new Vector3(-30,-120,0);
+        ub.transform.localRotation = Quaternion.identity;
+        ub.GetComponent<UnlockButton>().SetCharUser(charname, username);
+        ubInstance = ub;
     }
 
 	// Update is called once per frame
 	void Update () {
-	
+	    if(ubInstance == null && unlocked == true && seInstance == null)
+        {
+            // Create select button
+        }
 	}
 }
