@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ff46b059bbf3b428eba0437a2b705e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 100
+  hp: 3
   isEnemy: 0
   healthSlider: {fileID: 0}
 --- !u!212 &21237562
@@ -267,7 +267,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: hp
-      value: 100
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: healthSlider

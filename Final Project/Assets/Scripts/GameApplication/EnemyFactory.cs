@@ -3,8 +3,8 @@ using System.Collections;
 
 public class EnemyFactory : MonoBehaviour {
 
-    //public PlayerHealth playerHealth;       // Reference to the player's heatlh.
-    public GameObject enemy;                // The enemy prefab to be spawned.
+    public GameObject player;       // Reference to the player's heatlh.
+    public GameObject enemy;                // The enemy prefab to be spawned.    
     public float spawnTime = 3f;            // How long between each spawn.
     public Transform[] spawnPoints;         // An array of the spawn points this enemy can spawn from.
 
@@ -19,7 +19,7 @@ public class EnemyFactory : MonoBehaviour {
     void Spawn()
     {
         // If the player has no health left...
-        /*if (playerHealth.currentHealth <= 0f)
+        /*if (player.Health <= 0f)
         {
             // ... exit the function.
             return;
@@ -30,5 +30,11 @@ public class EnemyFactory : MonoBehaviour {
 
         // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
         Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+    }
+
+    void Update()
+    {
+        if (GameManager.instance.getEnemiesToSpawn() <= 0)
+            Destroy(this.gameObject);
     }
 }
