@@ -5,9 +5,12 @@ public class Player : MonoBehaviour {
 
     public GameObject currentCharacter;
     private MovingObject characterMovingObject;
+    public string username;
+    public int points, number;
 
 	// Use this for initialization
 	void Start () {
+        DontDestroyOnLoad(this.gameObject);
         characterMovingObject = currentCharacter.GetComponent<MovingObject>();
 	}
 	

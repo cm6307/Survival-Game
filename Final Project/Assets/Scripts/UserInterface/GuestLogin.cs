@@ -12,6 +12,8 @@ public class GuestLogin : MonoBehaviour {
     [SerializeField]
     private InputField passwordInputField = null;
 
+    public int player_num, screen_position;
+
     private string username, password, errorMessage;
     private bool error;
 
@@ -48,7 +50,8 @@ public class GuestLogin : MonoBehaviour {
         try
         {
             SessionManager.instance.Login(username, password);
-            // create the user box
+            // create user box
+            PressStart.instance.CreateUserBox(player_num, screen_position, username);
             // destroy this one
             Destroy(this.gameObject);
         }
