@@ -29,11 +29,19 @@ public class Player : MonoBehaviour {
         characterScript = character.GetComponent<Character>();
     }
 
+    public void Attack(bool attack)
+    {
+        if (characterScript != null)
+        {
+            characterScript.Attack(attack);
+        }
+    }
+
     public void Move(float x, bool jump)
     {
         if(characterScript != null)
         {
-            characterScript.Move(x, false, jump);
+            characterScript.Move(x, jump);
         }
     }
 }

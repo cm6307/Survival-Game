@@ -11,6 +11,8 @@ public class Enemy : MovingObject
     private Weapon weapon;
     public float attackDistance;                        //Distance to start attack
     //private bool skipMove;                              //Boolean to determine whether or not enemy should skip a turn or move this turn.
+    public AudioClip attackSound1;
+    public AudioClip attackSound2;
 
     void Awake()
     {
@@ -33,7 +35,7 @@ public class Enemy : MovingObject
         animator = GetComponent<Animator>();
 
         //Find the Player GameObject using it's tag and store a reference to its transform component.
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        target = GameObject.FindGameObjectWithTag("Character").transform;
 
         //Call the start function of our base class MovingObject.
         base.Start();
@@ -46,7 +48,6 @@ public class Enemy : MovingObject
     {        
         //Call the AttemptMove function from MovingObject.
         base.AttemptMove<T>(xDir, yDir);
-        
     }
 
 
@@ -89,6 +90,7 @@ public class Enemy : MovingObject
     //and takes a generic parameter T which we use to pass in the component we expect to encounter, in this case Player
     protected override void OnCantMove<T>(T component)
     {
+
         //Declare hitPlayer and set it to equal the encountered component.
         Health playerHealth = component as Health;
 

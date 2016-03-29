@@ -31,10 +31,10 @@ using System.Collections;
         {
             //Store start position to move from, based on objects current transform position.
             Vector2 start = transform.position;
-
+        
             // Calculate end position based on the direction parameters passed in when calling Move.
             Vector2 end = start + new Vector2(xDir, yDir);
-
+        
             //Disable the boxCollider so that linecast doesn't hit this object's own collider.
             boxCollider.enabled = false;
 

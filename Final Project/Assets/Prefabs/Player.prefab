@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 855d098ad68fe604885e5fa6e2dd19c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCharacter: {fileID: 127412, guid: 0db95cd99d7e9eb4e9c18070d646ebf9, type: 2}
+  currentCharacter: {fileID: 192106, guid: 08a7c868ab4f6a742838f83a32d6de4f, type: 2}
   username: 
   points: 0
   number: 0

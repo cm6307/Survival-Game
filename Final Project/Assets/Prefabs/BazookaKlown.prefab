@@ -46,7 +46,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -100,6 +100,8 @@ MonoBehaviour:
   playerDamage: 0
   isLongRange: 1
   attackDistance: 3
+  attackSound1: {fileID: 0}
+  attackSound2: {fileID: 0}
 --- !u!114 &11478834
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1
   isEnemy: 1
+  healthSlider: {fileID: 0}
 --- !u!212 &21261506
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -40,8 +40,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0325f9ec80de89468f3e4bc19a57097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   enemy: {fileID: 195012, guid: 48e9fd9400fbebe47b31cdc06d289096, type: 2}
-  spawnTime: 3
+  spawnTime: 5
   spawnPoints:
   - {fileID: 450706, guid: a97eec267fb39ae44b1fd67102fe20bf, type: 2}
 --- !u!114 &11498080
@@ -55,8 +56,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0325f9ec80de89468f3e4bc19a57097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   enemy: {fileID: 116708, guid: cab5569b6f01bde45af815e73f32d089, type: 2}
-  spawnTime: 3
+  spawnTime: 5
   spawnPoints:
   - {fileID: 446668, guid: 9995f62dfbd99074aa2961ac369a7112, type: 2}
 --- !u!1001 &100100000

@@ -6,7 +6,7 @@ public class InputReceiver : MonoBehaviour
 
     private Player m_player;
     private InputManager m_InputManager;
-    private bool m_Jump;
+    private bool m_Jump, m_Attack;
 
     private void Awake()
     {
@@ -21,6 +21,10 @@ public class InputReceiver : MonoBehaviour
         {
             m_Jump = m_InputManager.GetButtonDown("Jump");
         }
+        if (!m_Attack)
+        {
+            m_Attack = m_InputManager.GetButtonDown("Attack1");
+        }
     }
 
 
@@ -28,7 +32,8 @@ public class InputReceiver : MonoBehaviour
     {
         float h = m_InputManager.GetAxis("Horizontal");
         m_player.Move(h, m_Jump);
-        m_Jump = false;
+        m_player.Attack(m_Attack);
+        m_Jump = m_Attack = false;
     }
 
 }

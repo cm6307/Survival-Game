@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: cc5e64bd9c9a10343b60ff4cae8a2512
+timeCreated: 1459227327
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AliceJumping_0
+    21300002: AliceJumping_1
+    21300004: AliceJumping_2
+    21300006: AliceJumping_3
+    21300008: AliceJumping_4
+    21300010: AliceJumping_5
+    21300012: AliceJumping_6
+    21300014: AliceJumping_7
+    21300016: AliceJumping_8
+    21300018: AliceJumping_9
+    21300020: AliceJumping_10
+    21300022: AliceJumping_11
+    21300024: AliceJumping_12
+    21300026: AliceJumping_13
+    21300028: AliceJumping_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AliceJumping_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 355
+        width: 34
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 38.5}
+        - {x: -17, y: -38.5}
+        - {x: 12, y: -38.5}
+        - {x: 17, y: -31.5}
+        - {x: 17, y: 38.5}
+    - name: AliceJumping_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 355
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 39.5}
+        - {x: -12.5, y: 39.5}
+        - {x: -21.5, y: 37.5}
+        - {x: -21.5, y: -19.5}
+        - {x: -4.5, y: -39.5}
+        - {x: 8.5, y: -39.5}
+        - {x: 21.5, y: -25.5}
+        - {x: 21.5, y: 0.5}
+        - {x: 12.5, y: 31.5}
+    - name: AliceJumping_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 355
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 41}
+        - {x: -13.5, y: 41}
+        - {x: -23.5, y: 35}
+        - {x: -23.5, y: -10}
+        - {x: -10.5, y: -41}
+        - {x: 10.5, y: -41}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 25}
+        - {x: 19.5, y: 38}
+    - name: AliceJumping_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 355
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 41}
+        - {x: -10.5, y: 39}
+        - {x: -23.5, y: 32}
+        - {x: -23.5, y: -29}
+        - {x: -4.5, y: -41}
+        - {x: 20.5, y: -41}
+        - {x: 23.5, y: -32}
+        - {x: 23.5, y: 27}
+        - {x: 8.5, y: 41}
+    - name: AliceJumping_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 355
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 41}
+        - {x: -23, y: 27}
+        - {x: -23, y: -7}
+        - {x: -21, y: -12}
+        - {x: -9, y: -41}
+        - {x: 12, y: -41}
+        - {x: 23, y: -34}
+        - {x: 23, y: 16}
+        - {x: 6, y: 41}
+    - name: AliceJumping_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 355
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 37.5}
+        - {x: -12, y: 37.5}
+        - {x: -18, y: 35.5}
+        - {x: -18, y: -28.5}
+        - {x: -10, y: -37.5}
+        - {x: 10, y: -37.5}
+        - {x: 18, y: -25.5}
+        - {x: 18, y: 17.5}
+        - {x: 17, y: 35.5}
+    - name: AliceJumping_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 355
+        width: 40
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 38}
+        - {x: -20, y: 32}
+        - {x: -20, y: -29}
+        - {x: -12, y: -35}
+        - {x: -7, y: -38}
+        - {x: 7, y: -38}
+        - {x: 20, y: -26}
+        - {x: 20, y: 35}
+        - {x: 15, y: 38}
+    - name: AliceJumping_9
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 355
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 38}
+        - {x: -27.5, y: 16}
+        - {x: -27.5, y: 5}
+        - {x: -3.5, y: -38}
+        - {x: 24.5, y: -38}
+        - {x: 27.5, y: -32}
+        - {x: 27.5, y: 38}
+    - name: AliceJumping_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 355
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 33.5}
+        - {x: 10, y: 37.5}
+        - {x: -13, y: 37.5}
+        - {x: -17, y: 31.5}
+        - {x: -23, y: 20.5}
+        - {x: -23, y: -10.5}
+        - {x: -18, y: -24.5}
+        - {x: -4, y: -37.5}
+        - {x: 7, y: -37.5}
+        - {x: 22, y: -24.5}
+        - {x: 23, y: -20.5}
+        - {x: 23, y: 13.5}
+    - name: AliceJumping_11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 355
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 36.5}
+        - {x: -18.5, y: -27.5}
+        - {x: -8.5, y: -33.5}
+        - {x: -4.5, y: -36.5}
+        - {x: 10.5, y: -36.5}
+        - {x: 18.5, y: -30.5}
+        - {x: 18.5, y: 36.5}
+    - name: AliceJumping_12
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 355
+        width: 35
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 38}
+        - {x: -17.5, y: -38}
+        - {x: 17.5, y: -38}
+        - {x: 17.5, y: 32}
+        - {x: 10.5, y: 38}
+    - name: AliceJumping_13
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 355
+        width: 31
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AliceJumping_14
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 355
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
