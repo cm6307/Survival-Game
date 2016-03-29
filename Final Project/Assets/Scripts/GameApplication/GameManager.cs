@@ -9,7 +9,7 @@ using UnityEngine.UI;
     {
         public float levelStartDelay = 2f;                      //Time to wait before starting level, in seconds.        
         public static GameManager instance = null;              //Static instance of GameManager which allows it to be accessed by any other script.        
-        private int level = 1;                                  //Current level number, expressed in game as "Day 1".
+        private int level = 0;                                  //Current level number, expressed in game as "Day 1".
         private List<Enemy> enemies;                          //List of all Enemy units, used to issue them move commands.
         private int enemiesToSpawn = 0;                         // How many enemies to spawn for the level
         public GameObject enemyFactory;                         // Instance of EnemyFactory
@@ -18,7 +18,6 @@ using UnityEngine.UI;
         private GameObject levelImage;                          //Image to block out level as levels are being set up, background for levelText.  
         private bool doingSetup = true;                         //Boolean to check if we're setting up board, prevent Player from moving during setup.
         
-
         //Awake is always called before any Start functions
         void Awake()
         {
@@ -90,23 +89,34 @@ using UnityEngine.UI;
             //Call the SetupScene function of the LevelManager script, pass it current level number.
             enemiesToSpawn = level + 5;//(int)Mathf.Log(level, 2f);            
 
-        }
+           players = GameObject.FindGameObjectsWithTag("Player");
+    }
 
-        //Hides black image used between levels
-        void HideLevelImage()
+    //Hides black image used between levels
+    void HideLevelImage()
+    {
+        //Disable the levelImage gameObject.
+        levelImage.SetActive(false);
+
+        //Set doingSetup to false allowing player to move again.
+        doingSetup = false;
+
+        Instantiate(enemyFactory);
+
+        for (int i = 0; i < players.Length; i++)
         {
-            //Disable the levelImage gameObject.
-            levelImage.SetActive(false);
-
-            //Set doingSetup to false allowing player to move again.
-            doingSetup = false;
-            
-            Instantiate(enemyFactory);
-
+            if(players[i].GetComponent<Player>().GetCharacterScript() == null)
+            {
+                GameObject character = players[i].GetComponent<Player>().currentCharacter;
+                GameObject characterInstance = Instantiate(character, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+                players[i].GetComponent<Player>().SetCharacterScript(characterInstance);
+            }
         }
 
-        //Update is called every frame.
-        void Update()
+    }
+
+    //Update is called every frame.
+    void Update()
         {
             if (doingSetup)
                 return;                    

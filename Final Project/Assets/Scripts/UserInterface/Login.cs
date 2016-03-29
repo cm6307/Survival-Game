@@ -46,11 +46,10 @@ public class Login : MonoBehaviour {
 
     public void LoginSubmit()
     {
-        Debug.Log("Logging in " + username + " with password " + password);
         try
         {
             SessionManager.instance.Login(username, password);
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(5);
         }
         catch(InvalidOperationException ioe)
         {

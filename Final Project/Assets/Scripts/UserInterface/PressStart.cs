@@ -113,7 +113,7 @@ public class PressStart : MonoBehaviour
         ub.transform.SetParent(canvas.transform, false);
         ub.transform.localPosition = boxPosition[screen_position];
         ub.transform.localRotation = Quaternion.identity;
-        GameObject p = CreatePlayer(player_num);
+        GameObject p = CreatePlayer(player_num+1);
         Player playerScript = p.GetComponent<Player>();
         playerScript.username = username;
     }

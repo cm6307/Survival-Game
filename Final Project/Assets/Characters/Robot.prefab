@@ -14,8 +14,6 @@ GameObject:
   - 50: {fileID: 5070632}
   - 61: {fileID: 6127780}
   - 114: {fileID: 11404766}
-  - 114: {fileID: 11428970}
-  - 114: {fileID: 11409842}
   - 114: {fileID: 11497474}
   m_Layer: 8
   m_Name: Robot
@@ -172,28 +170,6 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &11409842
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 127412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e877491c0da55af4cbe5891d6ee57f10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11428970
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 127412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1f1cde4c927f434ab13455f327576ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11497474
 MonoBehaviour:
   m_ObjectHideFlags: 1
