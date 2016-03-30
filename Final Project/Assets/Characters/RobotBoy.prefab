@@ -64,7 +64,7 @@ GameObject:
   - 114: {fileID: 11404766}
   - 114: {fileID: 11497474}
   m_Layer: 8
-  m_Name: Robot
+  m_Name: RobotBoy
   m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

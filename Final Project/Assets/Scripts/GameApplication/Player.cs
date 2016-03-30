@@ -19,6 +19,11 @@ public class Player : MonoBehaviour {
 	
 	}
 
+    public void SetCurrentCharacter(GameObject c)
+    {
+        currentCharacter = c;
+    }
+
     public Character GetCharacterScript()
     {
         return characterScript;

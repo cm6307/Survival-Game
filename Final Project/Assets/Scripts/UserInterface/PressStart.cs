@@ -47,7 +47,7 @@ public class PressStart : MonoBehaviour
         Vector3 farLeft = new Vector3(-canvasWidth/2 + guestWidth*2 + margin, 0, 0);
         boxPosition = new Vector3[numOfPlayers];
         free = new bool[numOfPlayers];
-        boxPosition[0] = farLeft + new Vector3(margin, 0, 0);
+        boxPosition[0] = farLeft + new Vector3(margin, 100, 0);
         for(int i = 1; i < numOfPlayers; i++)
         {
             boxPosition[i] = boxPosition[i - 1] + new Vector3(padding + guestWidth, 0, 0);
@@ -117,6 +117,7 @@ public class PressStart : MonoBehaviour
         GameObject p = CreatePlayer(player_num+1);
         Player playerScript = p.GetComponent<Player>();
         playerScript.username = username;
+        ub.GetComponent<UserBox>().SetPlayer(playerScript);
     }
 
 }
