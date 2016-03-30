@@ -77,5 +77,6 @@ public class UnlockOrSelect : MonoBehaviour {
     public void SetUnlocked()
     {
         unlocked = true;
+        GetComponentInParent<UserBox>().updatePoints();
     }
 }

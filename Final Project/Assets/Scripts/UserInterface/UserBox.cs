@@ -15,6 +15,12 @@ public class UserBox : MonoBehaviour {
         pointsText.text = "points: " + points;
     }
 
+    public void updatePoints()
+    {
+        int points = SessionManager.instance.GetUserPoints(usernameText.text);
+        pointsText.text = "points: " + points;
+    }
+
     public void SetPlayer(Player p)
     {
         m_player = p;
