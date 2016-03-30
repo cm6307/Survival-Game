@@ -20,5 +20,6 @@ public class SelectButton : MonoBehaviour {
     public void Select()
     {
         m_player.SetCurrentCharacter(m_char);
+        Debug.Log("Character selected");
     }
 }

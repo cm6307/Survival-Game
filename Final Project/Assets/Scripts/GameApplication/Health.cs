@@ -60,15 +60,15 @@ public class Health : MonoBehaviour
                 Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script
             }
         }
-        else
-        {
-            Debug.Log("Attacking");
+        
+        
+            Debug.Log(this.gameObject + "Attacking" + otherCollider.gameObject);
             Health h = otherCollider.gameObject.GetComponent<Health>();
             if (h.isEnemy != this.isEnemy)
-            {
+            {                
                 Damage(30);
             }
-        }
+        
 
     }
 }

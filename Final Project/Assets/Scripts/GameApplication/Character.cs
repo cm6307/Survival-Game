@@ -22,7 +22,7 @@ public class Character : MonoBehaviour
     const float k_CeilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
     private Animator m_Anim;            // Reference to the player's animator component.
     private Rigidbody2D m_Rigidbody2D;
-    private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+    private bool m_FacingRight = true;  // For determining which way the player is currently facing.    
 
     private void Awake()
     {
@@ -30,8 +30,13 @@ public class Character : MonoBehaviour
         m_GroundCheck = transform.Find("GroundCheck");
         m_CeilingCheck = transform.Find("CeilingCheck");
         m_Anim = GetComponent<Animator>();
-        m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        m_Rigidbody2D = GetComponent<Rigidbody2D>();        
         dead = false;
+    }
+
+    private void Start()
+    {
+        GameManager.instance.AddCharacterToList(this);
     }
 
     private void FixedUpdate()
@@ -55,6 +60,8 @@ public class Character : MonoBehaviour
 
     public void Attack(bool attack)
     {
+        if (dead)
+            return;
         if (attack)
         {
             m_Anim.SetTrigger("Attack");
@@ -64,7 +71,12 @@ public class Character : MonoBehaviour
     public void Die()
     {
         m_Anim.SetTrigger("Death");
-        dead = true;
+        dead = true;        
+    }
+
+    public bool checkIfDead()
+    {
+        return dead;
     }
 
     public void Move(float move, bool jump)
