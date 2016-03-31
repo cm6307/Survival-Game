@@ -55,20 +55,15 @@ public class Health : MonoBehaviour
             // Avoid friendly fire
             if (shot.isEnemyShot != isEnemy)
             {
+                Animator shot_anim = otherCollider.gameObject.GetComponent<Animator>();                                
+                shot_anim.SetTrigger("impact");
+                Move stop = otherCollider.gameObject.GetComponent<Move>();
+                stop.speed.x = 0;                                
                 Damage(shot.damage);
                 // Destroy the shot                           
-                Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script
+                Destroy(shot.gameObject,1f); // Remember to always target the game object, otherwise you will just remove the script
             }
-        }
-        
-        
-            Debug.Log(this.gameObject + "Attacking" + otherCollider.gameObject);
-            Health h = otherCollider.gameObject.GetComponent<Health>();
-            if (h.isEnemy != this.isEnemy)
-            {                
-                Damage(30);
-            }
-        
-
+        }        
+      
     }
 }

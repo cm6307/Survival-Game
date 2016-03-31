@@ -65,6 +65,12 @@ public class Character : MonoBehaviour
         if (attack)
         {
             m_Anim.SetTrigger("Attack");
+            Weapon weapon = GetComponent<Weapon>();
+            if (weapon != null)
+            {
+                // false because the player is not an enemy
+                weapon.Attack(false);
+            }
         }
     }
 

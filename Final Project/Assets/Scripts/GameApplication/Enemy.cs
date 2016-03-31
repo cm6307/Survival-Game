@@ -7,7 +7,7 @@ public class Enemy : MovingObject
     public int playerDamage;                            //The amount of health points to subtract from the player when attacking.
     private Animator animator;                          //Variable of type Animator to store a reference to the enemy's Animator component.
     private Transform target;                           //Transform to attempt to move toward each turn.
-    public bool isLongRange;                            // Determine whether or not enemy has weapon
+    //public bool isLongRange;                            // Determine whether or not enemy has weapon
     private Weapon weapon;
     public float attackDistance;                        //Distance to start attack
     //private bool skipMove;                              //Boolean to determine whether or not enemy should skip a turn or move this turn.
@@ -15,12 +15,9 @@ public class Enemy : MovingObject
     public AudioClip attackSound2;
 
     void Awake()
-    {
-        if (isLongRange == true)
-        {            
+    {           
             // Retrieve the weapon only once
-            weapon = GetComponent<Weapon>();
-        }
+            weapon = GetComponent<Weapon>();        
     }
 
     //Start overrides the virtual Start function of the base class.
@@ -108,10 +105,16 @@ public class Enemy : MovingObject
 
     }
 
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Character")
+            animator.SetTrigger("enemyAttack");
+    }
+
+        void Update()
     {
         // Auto-fire
-        if (isLongRange == true && weapon != null && weapon.CanAttack && Vector3.Distance(transform.position, target.position) < attackDistance)
+        if (weapon != null && weapon.CanAttack && Vector3.Distance(transform.position, target.position) < attackDistance)
         {
             animator.SetTrigger("enemyAttack");            
             weapon.Attack(true);

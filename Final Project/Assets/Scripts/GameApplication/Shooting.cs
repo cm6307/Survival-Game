@@ -18,4 +18,5 @@ public class Shooting : MonoBehaviour
         Destroy(gameObject, 20); // 20sec
     }
 
+
 }

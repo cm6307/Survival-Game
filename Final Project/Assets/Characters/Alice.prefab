@@ -125,6 +125,7 @@ GameObject:
   - 61: {fileID: 6181704}
   - 114: {fileID: 11468114}
   - 114: {fileID: 11469278}
+  - 114: {fileID: 11412686}
   m_Layer: 8
   m_Name: Alice
   m_TagString: Character
@@ -219,6 +220,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11412686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441ef0b34b7d497499d2c66b1890c9d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotPrefab: {fileID: 476966, guid: 4412bf041e725d348b6b78b207da9adb, type: 2}
+  shootingRate: 0.25
 --- !u!114 &11425126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -511,6 +525,14 @@ Prefab:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hp
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: shotPrefab
+      value: 
+      objectReference: {fileID: 476966, guid: 4412bf041e725d348b6b78b207da9adb, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 192106}

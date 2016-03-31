@@ -13,6 +13,7 @@ using UnityEngine.UI;
         private List<Enemy> enemies;                            //List of all Enemy units, used to issue them move commands.
         private List<Character> characters;                     // List of all characters
         private int enemiesToSpawn = 0;                         // How many enemies to spawn for the level
+        private int enemiesRemaining = 0;
         public GameObject enemyFactory;                         // Instance of EnemyFactory
         public GameObject[] players;
         private Text levelText;                                 //Text to display current level number.
@@ -137,11 +138,12 @@ using UnityEngine.UI;
         bool checkIfGameOver()
         {
             bool gameOverStatus = false;
-            for (int i = 0; (i < characters.Count) && (characters[i].checkIfDead()); i++)
+            for (int i = 0; (i < characters.Count); i++)
             {
                 if (characters[i].checkIfDead() == false)
                 {
-                    gameOverStatus = false;                    
+                    gameOverStatus = false;
+                    break;                    
                 }
                 else
                 {
@@ -178,6 +180,8 @@ using UnityEngine.UI;
 
             //Disable this GameManager.
             enabled = false;
+
+            enemies.Clear();
 
             levelText.text = "After " + level + " waves, you were defeated.";
         }
