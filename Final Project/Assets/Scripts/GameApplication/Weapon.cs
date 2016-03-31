@@ -54,7 +54,10 @@ public class Weapon : MonoBehaviour
             Move move = shotTransform.gameObject.GetComponent<Move>();
             if (move != null)
             {
-                move.direction.x = this.transform.localScale.x; // towards in 2D space is the right of the sprite
+                if(shot.isEnemyShot)
+                    move.direction = this.transform.right;
+                else
+                    move.direction.x = this.transform.localScale.x; // towards in 2D space is the right of the sprite
             }
         }
     }

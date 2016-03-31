@@ -193,9 +193,11 @@ public class GameManager : MonoBehaviour
             enabled = false;
 
             enemies.Clear();
-            for (int i=0; i<enemies.Count; i++)
+
+            GameObject[] enemiesToDestroy = GameObject.FindGameObjectsWithTag("Enemy");
+            for (int i=0; i<enemiesToDestroy.Length; i++)
             {
-                Destroy(enemies[i].gameObject);
+                Destroy(enemiesToDestroy[i].gameObject);
             }
 
             levelText.text = "After " + level + " waves, you were defeated.";
