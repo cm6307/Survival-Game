@@ -5,10 +5,10 @@ AnimatorOverrideController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: RobotBoyProjectile
+  m_Name: RobotboyProjectile
   m_Controller: {fileID: 9100000, guid: fd75c7a53a1f60b4194fbb613ff3133f, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 485d0f349d87c124fa5a3fb01ef5bae2, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 2fbc304649d08a94ab32da7745649b9d, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 4720d96cee9ea1f44b628cfc53859d5d, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 4720d96cee9ea1f44b628cfc53859d5d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2fbc304649d08a94ab32da7745649b9d, type: 2}
