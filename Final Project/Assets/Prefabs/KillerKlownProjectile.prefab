@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9ae88f1350d91408957d9bc72caba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 20
   isEnemyShot: 1
 --- !u!212 &21242634
 SpriteRenderer:
@@ -153,6 +153,10 @@ Prefab:
       value: 
       objectReference: {fileID: 22100000, guid: 34d3cdc4b52a2e445b60949981e0682e,
         type: 2}
+    - target: {fileID: 0}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 155628}
