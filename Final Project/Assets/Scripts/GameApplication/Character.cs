@@ -77,7 +77,7 @@ public class Character : MonoBehaviour
     public void Die()
     {
         m_Anim.SetTrigger("Death");
-        dead = true;        
+        dead = true;              
     }
 
     public bool checkIfDead()

@@ -42,6 +42,7 @@ public class Enemy : MovingObject
     {
         animator.SetTrigger("enemyDeath");
         Destroy(this.gameObject, 2f);
+        GameManager.instance.updateEnemiesRemaining();
     }
 
 
@@ -94,14 +95,14 @@ public class Enemy : MovingObject
     protected override void OnCantMove<T>(T component)
     {
 
-        //Declare hitPlayer and set it to equal the encountered component.
+        /*//Declare hitPlayer and set it to equal the encountered component.
         Health playerHealth = component.GetComponent<Health>();
 
         //Call the LoseFood function of hitPlayer passing it playerDamage, the amount of foodpoints to be subtracted.
         playerHealth.Damage(playerDamage);
 
         //Set the attack trigger of animator to trigger Enemy attack animation.
-        animator.SetTrigger("enemyAttack");
+        animator.SetTrigger("enemyAttack");*/
 
     }
 

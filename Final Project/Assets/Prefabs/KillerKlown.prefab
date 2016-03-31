@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 446848, guid: 203dfe2cf1115574f962c1256a624741, type: 2}
-  shootingRate: 0.25
+  shootingRate: 0.5
 --- !u!114 &11421822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69ff46b059bbf3b428eba0437a2b705e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 5
+  hp: 20
   isEnemy: 1
   healthSlider: {fileID: 11486474}
 --- !u!114 &11429664
@@ -355,7 +355,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2073785783
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300014, guid: 22b6d1d4cbc2b0747a5c3791ac9ad8a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -485,12 +485,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: hp
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: shotPrefab
       value: 
       objectReference: {fileID: 446848, guid: 203dfe2cf1115574f962c1256a624741, type: 2}
+    - target: {fileID: 0}
+      propertyPath: shootingRate
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300014, guid: 22b6d1d4cbc2b0747a5c3791ac9ad8a2,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 195012}

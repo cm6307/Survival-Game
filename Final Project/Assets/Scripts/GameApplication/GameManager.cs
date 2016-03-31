@@ -3,9 +3,10 @@ using System.Collections;
 using UnityEngine.UI;
 
 
-    using System.Collections.Generic;       //Allows us to use Lists. 
+using System.Collections.Generic;       //Allows us to use Lists. 
+using UnityEngine.SceneManagement;
 
-    public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour
     {
         public float levelStartDelay = 2f;                      //Time to wait before starting level, in seconds.        
         public static GameManager instance = null;              //Static instance of GameManager which allows it to be accessed by any other script.        
@@ -57,10 +58,10 @@ using UnityEngine.UI;
             InitGame();
         }
 
-        /*public void updateEnemiesToSpawn()
+        public void updateEnemiesRemaining()
         {
-            enemiesToSpawn--;
-        }*/
+            enemiesRemaining--;
+        }
 
         public int getEnemiesToSpawn()
         {
@@ -91,8 +92,12 @@ using UnityEngine.UI;
             //Clear any Enemy objects in our List to prepare for next level.
             enemies.Clear();
 
+            //Clear any Enemy objects in our List to prepare for next level.
+            characters.Clear();
+
             //Call the SetupScene function of the LevelManager script, pass it current level number.
-            enemiesToSpawn = level + 5;//(int)Mathf.Log(level, 2f);
+            enemiesToSpawn = 2*level;//(int)Mathf.Log(level, 2f);
+            enemiesRemaining = enemiesToSpawn;
 
             players = GameObject.FindGameObjectsWithTag("Player");
     }
@@ -129,9 +134,15 @@ using UnityEngine.UI;
         {
             if (doingSetup)
                 return;
+            //Debug.Log(enemies.Count);            
+            if (enemiesRemaining <= 0)           
+                SceneManager.LoadScene("Game");
 
-            if (checkIfGameOver())
-                StartCoroutine(GameOver());        
+        if (checkIfGameOver())
+        {
+            Debug.Log("game over");
+            StartCoroutine(GameOver());
+        }       
 
         }
 
@@ -150,7 +161,7 @@ using UnityEngine.UI;
                     gameOverStatus = true;
                 }                  
                     
-            }
+            }            
             return gameOverStatus;
         }
 
@@ -182,6 +193,10 @@ using UnityEngine.UI;
             enabled = false;
 
             enemies.Clear();
+            for (int i=0; i<enemies.Count; i++)
+            {
+                Destroy(enemies[i].gameObject);
+            }
 
             levelText.text = "After " + level + " waves, you were defeated.";
         }

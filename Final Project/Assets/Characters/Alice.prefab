@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPrefab: {fileID: 476966, guid: 4412bf041e725d348b6b78b207da9adb, type: 2}
-  shootingRate: 0.25
+  shootingRate: 0.5
 --- !u!114 &11425126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -533,6 +533,10 @@ Prefab:
       propertyPath: shotPrefab
       value: 
       objectReference: {fileID: 476966, guid: 4412bf041e725d348b6b78b207da9adb, type: 2}
+    - target: {fileID: 0}
+      propertyPath: shootingRate
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 192106}

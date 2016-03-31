@@ -40,6 +40,7 @@ public class Health : MonoBehaviour
             {
                 Character c = this.gameObject.GetComponent<Character>();
                 c.Die();
+                Debug.Log("You died!");
             }
             
             // GameManager.instance.GameOver();
@@ -61,7 +62,7 @@ public class Health : MonoBehaviour
                 stop.speed.x = 0;                                
                 Damage(shot.damage);
                 // Destroy the shot                           
-                Destroy(shot.gameObject,1f); // Remember to always target the game object, otherwise you will just remove the script
+                Destroy(shot.gameObject,0.5f); // Remember to always target the game object, otherwise you will just remove the script
             }
         }        
       
